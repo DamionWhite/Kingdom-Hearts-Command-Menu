@@ -1,0 +1,23 @@
+.MenuItem {
+  padding: 4px 15px;
+  border-radius: 15px 10px 10px 0;
+  border-left-width: 4px;
+
+  
+}
+
+.MenuItem > * {
+  margin: 0;
+  padding: 0;
+}
+
+.MenuItem-Active {
+  border-color: rgb(255, 81, 81);
+  background: linear-gradient(0deg, rgb(177, 40, 40), black 60%);
+  position: relative;
+  left: 12px;
+}
+
+.MenuItem-Disabled {
+  color: grey;
+}
